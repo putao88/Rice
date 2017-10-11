@@ -1,0 +1,17 @@
+{
+  "msg":"true",
+  "items":[
+    {
+      "id":60,
+      "userId":1,
+      "eqId":47,
+      "districts":"众冠红花岭3"
+    },
+    {
+      "id":61,
+      "userId":1,
+      "eqId":48,
+      "districts":"西丽地铁站4"
+    }
+  ]
+}

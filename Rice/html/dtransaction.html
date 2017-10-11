@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>谷子里后台管理系统</title>
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+<div class="wrap">
+    <!--头部-->
+    <div class="banner">
+        <div class="nav"></div>
+        <div class="loginout" id="loginout">退出</div>
+        <div class="whitebar"></div>
+        <div class="user" id="user">Admin</div>
+        <div class="icon-admin"></div>
+    </div>
+    <!--左边导航部分-->
+    <div class="left">
+        <div class="guidebg">
+            <ul class="guide">
+                <li>
+                    <div class="index">
+                        <a href="index.html">
+                            <div class="icon-home"></div>
+                            <div class="guidefcont">首页</div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="shopping-card"></div>
+                        <div class="guidefcont">购物卡管理</div>
+                        <div class="darrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="shoppingList.html">购物卡列表</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="shoppingRecord.html">购物卡充值记录</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-user"></div>
+                        <div class="guidefcont">用户管理</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="userList.html">用户列表</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="distributionList.html">配送员列表</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="deviceMangerList.html">设备管理员列表</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-product"></div>
+                        <div class="guidefcont">产品管理</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="productList.html">产品类表</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-equipment"></div>
+                        <div class="guidefcont">设备管理</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="deciceList.html">设备管理</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="deviceStatus.html">设备状态</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="falutInformation.html">故障信息</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-make-deal"></div>
+                        <div class="guidefcont">交易管理</div>
+                        <div class="darrow fright"></div>
+                    </div>
+                    <ul class="guide_child block">
+                        <li class="black">
+                            <div class="greenbar block"></div>
+                            <a href="dtransaction.html">交易信息</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="orderManage.html">订单管理</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="deliveryFee.html">配送费</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-app"></div>
+                        <div class="guidefcont">APP发现模块</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="reading.html">阅读管理</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="activity.html">活动管理</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="appUpdate.html">app版本更新</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-message"></div>
+                        <div class="guidefcont">消息管理</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="suggestion.html">意见反馈</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="orderSuggest.html">订单反馈</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="equipFeedBack.html">设备反馈</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-video"></div>
+                        <div class="guidefcont">视频管理</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="videoList.html">视频列表</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-system"></div>
+                        <div class="guidefcont">系统管理</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="dataBase.html">数据库备份</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-report"></div>
+                        <div class="guidefcont">报表管理</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li><div class="greenbar"></div><a href="jobDensity.html">作业密度分布</a></li>
+                        <li><div class="greenbar"></div><a href="deviceScale.html">设备销售情况</a></li>
+                        <li><div class="greenbar"></div><a href="allSale.html">分类总销售情况</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-administrator"></div>
+                        <div class="guidefcont">管理员管理</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li><div class="greenbar"></div><a href="managerList.html">管理员列表</a></li>
+                        <li>
+                            <div class="greenbar"></div><a href="loginRecordList.html">登录列表</a>
+                        </li>
+                        <li><div class="greenbar"></div><a href="personMessage.html">个人信息</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="location">
+        <div class="flocal"></div>
+        <div class="fcont">当前位置：交易管理</div>
+        <div class="jiantou"></div>
+        <div class="fcont">交易信息</div>
+    </div>
+    <div class="contentbg">
+        <div class="content">
+            <div class="content_wrap">
+                <div class="transactionData">
+                    <div class="tranDabg">
+                        <div class="iconbg icon-money"></div>
+                        <div class="tranName">交易金额</div>
+                        <div class="tranValue">
+                            <span>$</span>
+                            <span id="transactMoney"></span>
+                        </div>
+                    </div>
+                    <div class="tranDabg">
+                        <div class="iconbg icon-shuliang"></div>
+                        <div class="tranName">订单数量</div>
+                        <div class="tranValue" id="transactOrder"></div>
+                    </div>
+                    <div class="tranDabg">
+                        <div class="iconbg icon-deal1"></div>
+                        <div class="tranName">交易成功</div>
+                        <div class="tranValue" id="transactSuc"></div>
+                    </div>
+                    <div class="tranDabg">
+                        <div class="iconbg icon-deal2"></div>
+                        <div class="tranName">交易失败</div>
+                        <div class="tranValue" id="transactFail"></div>
+                    </div>
+                    <div class="tranDabg">
+                        <div class="iconbg icon-tuikuang"></div>
+                        <div class="tranName">退款金额</div>
+                        <div class="tranValue"><span id="transacRefund"></span></div>
+                    </div>
+                    <select class="fright" id="years">
+                        <option value=""></option>
+                        <option value="2017">2017年</option>
+                        <option value="2018">2018年</option>
+                        <option value="2019">2019年</option>
+                        <option value="2020">2020年</option>
+                        <option value="2021">2021年</option>
+                        <option value="2022">2022年</option>
+                        <option value="2023">2023年</option>
+                        <option value="2024">2024年</option>
+                        <option value="2025">2025年</option>
+                        <option value="2026">2026年</option>
+                        <option value="2027">2027年</option>
+                    </select>
+                    <label class="fright">年份</label>
+                </div>
+                <div class="transactionShow">
+                    <div class="chart" id="chart"></div>
+                </div>
+                <div class="prompt">
+                    点击月份显示当月销售数据
+                </div>
+                <div class="transactionShow none">
+                    <div class="chart" id="chartMonth"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+<!-- 标签式引入Eharts 如果你把引用echarts的script标签放置head内在IE8-的浏览器中会出现报错，解决的办法就是把标签移动到body内（后）。 -->
+<script type="text/javascript" src="../js/echarts.min.js"></script>
+<!--<script type="text/javascript" src="../js/echarts.js"></script>-->
+<script type="text/javascript" src="../js/layer.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/dransaction.js"></script>
+</body>
+<!--<script type="text/javascript" src="http://aps.bdimg.com/libs/echarts/2.1.9/source/echarts-all.js"></script>-->
+</html>

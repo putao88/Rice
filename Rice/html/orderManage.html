@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>谷子里后台管理系统</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/laydate/laydate.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <!--头部-->
+    <div class="banner">
+        <div class="nav"></div>
+        <div class="loginout" id="loginout">退出</div>
+        <div class="whitebar"></div>
+        <div class="user" id="user">Admin</div>
+        <div class="icon-admin"></div>
+    </div>
+    <!--左边导航部分-->
+    <div class="left">
+        <div class="guidebg">
+            <ul class="guide">
+                <li>
+                    <div class="index">
+                        <a href="index.html">
+                            <div class="icon-home"></div>
+                            <div class="guidefcont">首页</div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="shopping-card"></div>
+                        <div class="guidefcont">购物卡管理</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="shoppingList.html">购物卡列表</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="shoppingRecord.html">购物卡充值记录</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-user"></div>
+                        <div class="guidefcont">用户管理</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="userList.html">用户列表</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="distributionList.html">配送员列表</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="deviceMangerList.html">设备管理员列表</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-product"></div>
+                        <div class="guidefcont">产品管理</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="productList.html">产品类表</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-equipment"></div>
+                        <div class="guidefcont">设备管理</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="deciceList.html">设备列表</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="deviceStatus.html">设备状态</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="falutInformation.html">故障信息</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-make-deal"></div>
+                        <div class="guidefcont">交易管理</div>
+                        <div class="darrow fright"></div>
+                    </div>
+                    <ul class="guide_child block">
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="dtransaction.html">交易信息</a>
+                        </li>
+                        <li class="black">
+                            <div class="greenbar block"></div>
+                            <a href="orderManage.html">订单管理</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="deliveryFee.html">配送费</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-app"></div>
+                        <div class="guidefcont">APP发现模块</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="reading.html">阅读管理</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="activity.html">活动管理</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="appUpdate.html">app版本更新</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-message"></div>
+                        <div class="guidefcont">消息管理</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="suggestion.html">意见反馈</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="orderSuggest.html">订单反馈</a>
+                        </li>
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="equipFeedBack.html">设备反馈</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-video"></div>
+                        <div class="guidefcont">视频管理</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="videoList.html">视频列表</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-system"></div>
+                        <div class="guidefcont">系统管理</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li>
+                            <div class="greenbar"></div>
+                            <a href="dataBase.html">数据库备份</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-report"></div>
+                        <div class="guidefcont">报表管理</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li><div class="greenbar"></div><a href="jobDensity.html">作业密度分布</a></li>
+                        <li><div class="greenbar"></div><a href="deviceScale.html">设备销售情况</a></li>
+                        <li><div class="greenbar"></div><a href="allSale.html">分类总销售情况</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="fguidebg">
+                        <div class="icon-administrator"></div>
+                        <div class="guidefcont">管理员管理</div>
+                        <div class="rarrow fright"></div>
+                    </div>
+                    <ul class="guide_child">
+                        <li><div class="greenbar"></div><a href="managerList.html">管理员列表</a></li>
+                        <li>
+                            <div class="greenbar"></div><a href="loginRecordList.html">登录列表</a>
+                        </li>
+                        <li><div class="greenbar"></div><a href="personMessage.html">个人信息</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="location">
+        <div class="flocal"></div>
+        <div class="fcont">当前位置：交易管理</div>
+        <div class="jiantou"></div>
+        <div class="fcont" id="secondOrder">订单管理</div>
+        <div class="thirdOrder">
+            <div class="jiantou"></div>
+            <div class="fcont">订单详情</div>
+        </div>
+    </div>
+    <div class="contentbg">
+        <div class="content">
+            <div class="content_wrap">
+                <div class="ordreList">
+                    <div class="showConditin">
+                        <div class="fleft marginR_20">
+                            <span>显示</span>
+                            <select class="perpagenum" id="perpagenum">
+                                <option value="10">10</option>
+                                <option value="25">25</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+                            </select>
+                            <span>条</span>
+                        </div>
+                        <div class="fright marginL_20">
+                            <button id="searchBtn">搜索</button>
+                        </div>
+                        <div class="search fright">
+                            <input type="text" placeholder="搜索" id="search">
+                        </div>
+                        <div class="fright marginR_20">
+                            <span>搜索选项</span>
+                            <select class="searchClfic" id="searchClfic">
+                                <option value="1">订单编号</option>
+                                <option value="2">产品名称</option>
+                            </select>
+                        </div>
+                        <!--<div class="fright marginR_20">-->
+                            <!--<input class="datainp" id="datebut" type="text" placeholder="请选择时间"  readonly>-->
+                        <!--</div>-->
+                    </div>
+                    <table class="orderManage" id="orderManage">
+                        <thead>
+                            <tr>
+                                <th>序号</th>
+                                <th>订单编号</th>
+                                <th>设备编号</th>
+                                <th>产品名称</th>
+                                <th>总价</th>
+                                <th>订单时间</th>
+                                <th>数量</th>
+                                <th>订单状态</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                    <div class="nodata">没有相关记录</div>
+                    <div class="num_bg">
+                        <div class="total fleft">共 <span id="total_data"></span> 条记录</div>
+                        <div class="parger_num fright">
+                            <ul></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="orderDetail">
+                    <div class="orderNumbg">
+                        <span>订单编号：</span>
+                        <span id="orderNum" class="orderNum"></span>
+                    </div>
+                    <div class="xuxian"></div>
+                    <div class="receiverMes">
+                        <div class="mesTitle">
+                            <span>收件人信息</span>
+                        </div>
+                        <div class="mesContbg">
+                            <div class="w_full mar">
+                                <span class="spanw_100">收&nbsp;&nbsp;件&nbsp;&nbsp;人&nbsp; &nbsp;&nbsp; &nbsp;：</span>
+                                <span class="span_content" id="resPerson"></span>
+                            </div>
+                            <div class="w_full">
+                                <span class="spanw_100">收&nbsp;件&nbsp;地&nbsp;&nbsp;址&nbsp;&nbsp;：</span>
+                                <span class="span_content" id="resMes"></span>
+                            </div>
+                            <div class="w_full">
+                                <span class="spanw_100">收件人手机&nbsp;&nbsp;：</span>
+                                <span class="span_content" id="resMobile"></span>
+                            </div>
+                            <!--<div class="w_full">-->
+                                <!--<span class="spanw_100">收&nbsp;件&nbsp;邮&nbsp;&nbsp;箱&nbsp;&nbsp;：</span>-->
+                                <!--<span class="span_content" id="resEmail"></span>-->
+                            <!--</div>-->
+                        </div>
+                    </div>
+                    <div class="productMes">
+                        <div class="mesTitle">
+                            <span>产品信息</span>
+                        </div>
+                        <div class="mesContbg">
+                            <img id="riceImg">
+                            <div class="W_250 no-top">
+                                <span id="riceName" class="fc_b">东北大米</span>
+                            </div>
+                            <div class="W_250">
+                                <span id="riceDescrip">大米是稻谷经清理，湛米成品整理后制成的大米</span>
+                            </div>
+                            <div class="W_250">
+                                <span class="fc_b">粗糙度</span>
+                                <span id="roughness"></span>
+                            </div>
+                            <div class="W_250">
+                                <span  class="fc_b">价格</span>
+                                <span class="red">￥</span>
+                                <span id="price" class="red"></span>
+                            </div>
+                            <div class="W_250">
+                                <span class="fc_b">总数</span>
+                                <span class="red" id="allreder"></span>
+                            </div>
+                            <!--<div class="W_250">-->
+                                <!--<span  class="fc_b">状态</span>-->
+                                <!--<span id="status"></span>-->
+                            <!--</div>-->
+                        </div>
+                    </div>
+                    <div class="paySend">
+                        <div class="mesTitle">
+                            <span>支付&配送&费用</span>
+                        </div>
+                        <div class="paySendcnt">
+                            <div class="w_3 fleft">
+                                <div>
+                                    <span class="w_3name">支付方式：</span>
+                                    <span id="payType"></span>
+                                </div>
+                                <div>
+                                    <span  class="w_3name">配&nbsp;送&nbsp;员&nbsp;：</span>
+                                    <span id="sendPerson"></span>
+                                </div>
+                            </div>
+                            <div class="w_3 posimiddle">
+                                <div>
+                                    <span class="w_3name">订单状态：</span>
+                                    <span id="orderStatus"></span>
+                                </div>
+                                <div>
+                                    <span  class="w_3name">订单生成日期：</span>
+                                    <span id="orderTime"></span>
+                                </div>
+                            </div>
+                            <div class="w_3 width_120 posiright">
+                                <span class="w_3name">取货方式：</span>
+                                <span id="resiveWay"></span>
+                            </div>
+                        </div>
+                        <div class="allpriceBot">
+                            <div class="marginL_20 fleft">
+                                <span>配送费:</span>
+                                <span>￥</span>
+                                <span id="deliveryFee"></span>
+                            </div>
+                            <div class="totalPrice">
+                                <span>总价：</span>
+                                <span class="red">￥</span>
+                                <span id="totalPrice" class="red bigFont"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="../js/layer.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/orderManage.js"></script>
+</body>
+</html>

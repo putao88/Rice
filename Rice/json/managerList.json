@@ -1,0 +1,40 @@
+{
+  "msg":"true",
+  "items":{
+    "total":2,
+    "Administrator":1,
+    "sysAdminCustoms":[
+      {
+        "Roles":"普通管理员",
+        "id":"abcd",
+        "username":"admin01",
+        "password":"4a7769bb719ddc74e34822dd2cc63f47",
+        "phone":"12345678901",
+        "salt":"qwerty",
+        "registerTime":"Feb 2, 2017 3:50:41 PM"
+      },
+      {
+        "Roles":"超级管理员",
+        "id":"123",
+        "username":"admin03",
+        "password":"4a7769bb719ddc74e34822dd2cc63f47",
+        "phone":"12345678901",
+        "salt":"qwerty",
+        "registerTime":"Feb 2, 2017 3:50:41 PM"
+      }
+    ],
+    "SuperAdmin":1,
+    "sysRoles":[
+      {
+        "id":"ebc9d643-aa00-11e4-b137-0adc305c3f28",
+        "name":"超级管理员",
+        "available":"1"
+      },
+      {
+        "id":"ebc9d643-aa01-11e4-b137-0adc305c3f28",
+        "name":"普通管理员",
+        "available":"1"
+      }
+    ]
+  }
+}

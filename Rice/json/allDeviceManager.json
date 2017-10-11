@@ -1,0 +1,33 @@
+{
+  "msg":"true",
+  "items":[
+    {
+      "id":1,
+      "name":"刘德华",
+      "telephone":"18574332030",
+      "picture":"https://www.guzili.com.cn/discovery/activities/1499916840182/cover.png",
+      "remarks":"香港男星"
+    },
+    {
+      "id":2,
+      "name":"王小二",
+      "telephone":"18574332030",
+      "picture":"https://www.guzili.com.cn/discovery/activities/1499916840182/cover.png",
+      "remarks":"香港男星"
+    },
+    {
+      "id":3,
+      "name":"刘三",
+      "telephone":"18574332030",
+      "picture":"https://www.guzili.com.cn/discovery/activities/1499916840182/cover.png",
+      "remarks":"香港男星"
+    },
+    {
+      "id":4,
+      "name":"刘四",
+      "telephone":"18574332030",
+      "picture":"https://www.guzili.com.cn/discovery/activities/1499916840182/cover.png",
+      "remarks":"香港男星"
+    }
+  ]
+}

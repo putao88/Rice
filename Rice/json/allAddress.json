@@ -1,0 +1,25 @@
+{
+  "msg":"true",
+  "items":[
+    {
+      "id":147,
+      "userId":509,
+      "address":"88",
+      "phonenumber":"18574332030",
+      "name":"fh",
+      "status":1,
+      "area":"湖南 湘西 ",
+      "street":"永顺"
+    },
+    {
+      "id":145,
+      "userId":509,
+      "address":"48号",
+      "phonenumber":"13266574728",
+      "name":"康",
+      "status":0,
+      "area":"福建省 宁德市 古田县",
+      "street":"新安"
+    }
+  ]
+}

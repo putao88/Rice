@@ -1,0 +1,32 @@
+{
+  "msg": "true",
+  "items": {
+    "datasets": [
+      {
+        "id": 45,
+        "equiNum": "HB000001",
+        "province": "广东",
+        "city": "深圳市",
+        "district": "南山区",
+        "street": "西丽街道",
+        "address": "福华学校",
+        "latitude": "22.588936",
+        "longitude": "113.965725",
+        "product1Id": "2",
+        "product2Id": "2",
+        "area": "华南",
+        "eqProduct": [
+          {
+            "id": 2,
+            "name": "湖北大米",
+            "pic": "http://dwz.cn/5WncnE"
+          }
+        ]
+      }
+    ],
+  "Statistics": {
+    "total_pages": 1,
+    "total_data": 1
+  }
+  }
+}

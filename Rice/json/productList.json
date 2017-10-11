@@ -1,0 +1,62 @@
+{
+  "msg":"true",
+  "items":{
+    "datasets":[
+      {
+        "id":1,
+        "name":"湖南大米",
+        "pic":"http://dwz.cn/5WnbkM",
+        "price":0.01,
+        "specification":"kg",
+        "genre":"食品",
+        "description":"湖南大米老湘潭酱香米",
+        "salesVolume":1000,
+        "origin":"湖南地区",
+        "detailsUrl":"https://www.guzili.com.cn/discovery/reading/1499935922972/index.html",
+        "status":0,
+        "types":"早熟",
+        "productPictureList":[
+
+        ]
+      },
+      {
+        "id":1,
+        "name":"湖南大米",
+        "pic":"http://dwz.cn/5WnbkM",
+        "price":0.01,
+        "specification":"kg",
+        "genre":"食品",
+        "description":"湖南大米老湘潭酱香米",
+        "salesVolume":1000,
+        "origin":"湖南地区",
+        "detailsUrl":"https://www.guzili.com.cn/discovery/reading/1499935922972/index.html",
+        "status":0,
+        "types":"早熟",
+        "productPictureList":[
+
+        ]
+      },
+      {
+        "id":1,
+        "name":"湖南大米",
+        "pic":"http://dwz.cn/5WnbkM",
+        "price":0.01,
+        "specification":"kg",
+        "genre":"食品",
+        "description":"湖南大米老湘潭酱香米",
+        "salesVolume":1000,
+        "origin":"湖南地区",
+        "detailsUrl":"https://www.guzili.com.cn/discovery/reading/1499935922972/index.html",
+        "status":0,
+        "types":"早熟",
+        "productPictureList":[
+
+        ]
+      }
+    ],
+    "Statistics":{
+      "total_pages":100,
+      "total_data":1000
+    }
+  }
+}

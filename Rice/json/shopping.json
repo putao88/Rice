@@ -1,0 +1,13 @@
+{
+  "msg":"true",
+  "items":{
+             "id":3,
+             "cardNum":"000003",
+             "userId":57,
+             "createtime":"May 23, 2017 2:00:32 PM",
+             "status":1,
+             "initialBalance":5000,
+             "balance":5000,
+             "telephone":"13266574728ur"
+  }
+}

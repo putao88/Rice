@@ -1,0 +1,35 @@
+{
+  "msg":"true",
+  "items":{
+    "id":1395,
+    "deliveryTime":"",
+    "orderCode":"97201708061416496399109",
+    "userId":506,
+    "productId":1,
+    "shoppingCartId":-1,
+    "status":-1,
+    "userName":"--",
+    "phonenumber":"--",
+    "address":"--",
+    "createtime":"Aug 6, 2017 2:16:49 PM",
+    "getway":0,
+    "courier":"--",
+    "tip":0.01,
+    "equipmentId":44,
+    "roughness":7,
+    "count":3,
+    "totalPrice":0.04,
+    "payType2":-1,
+    "expressStatus":0,
+    "payStatus":-1,
+    "unitPrice":0.01,
+    "pickupCode":0,
+    "product":{
+      "name":"湖南大米",
+      "pic":"http://dwz.cn/5WnbkM",
+      "price":0.01,
+      "description":"湖南大米老湘潭酱香米",
+      "status":-1
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "msg":"true",
+  "items":{
+    "datasets":[
+      {
+        "id":3,
+        "cardNum":"000003",
+        "userId":57,
+        "createtime":"May 23, 2017 2:00:32 PM",
+        "status":0,
+        "initialBalance":5000,
+        "balance":5000,
+        "telephone":"13266574728ur"
+      },
+      {
+        "id":4,
+        "cardNum":"000003",
+        "userId":57,
+        "createtime":"May 23, 2017 2:00:32 PM",
+        "status":1,
+        "initialBalance":5000,
+        "balance":5000,
+        "telephone":"13266574728ur"
+      },
+      {
+        "id":5,
+        "cardNum":"000003",
+        "userId":57,
+        "createtime":"May 23, 2017 2:00:32 PM",
+        "status":2,
+        "initialBalance":5000,
+        "balance":5000,
+        "telephone":"13266574728ur"
+      },
+      {
+        "id":5,
+        "cardNum":"000003",
+        "userId":57,
+        "createtime":"May 23, 2017 2:00:32 PM",
+        "status":3,
+        "initialBalance":5000,
+        "balance":5000,
+        "telephone":"13266574728ur"
+      }
+    ],
+    "Statistics":{
+      "total_pages":100,
+      "total_data":300
+    }
+  }
+}
